@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config xmlns="https://jakarta.ee/xml/ns/jakartaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
+                                  https://jakarta.ee/xml/ns/jakartaee/faces-config_4_0.xsd"
+              version="4.0">
+
+    <!-- Application Configuration -->
+    <application>
+        <!-- Specify default locale and supported locales -->
+        <locale-config>
+			<default-locale>pt_BR</default-locale>
+        </locale-config>
+
+        <!-- Configure state saving (client or server) -->
+        <state-saving-method>server</state-saving-method>
+
+        <!-- Configure the default suffix for view files -->
+        <default-suffix>.xhtml</default-suffix>
+    </application>
+</faces-config>
